@@ -5,7 +5,7 @@ void Print(int A[],int n){
 		printf("%d ",A[i]);
 	}
 }
-// Bubble Sort
+// Bubble Sort basically moves larger value to last of the array
 void Bubble(int A[],int n,int i,int j){
 	//Base Case 1 to Return from Outer loop
 	if(i>=n){

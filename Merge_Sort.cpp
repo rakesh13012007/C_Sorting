@@ -1,7 +1,7 @@
   // Merge Sort
 #include<stdio.h>
 void Merge(int arr[],int left,int mid,int right,int n){
-	// i=Left part starting index upto mid , j=Right part strting index upto right
+	// i=Left part starting index, j=Right part starting index
 	int i=left,j=mid+1;
 	int B[n];
 	int k=0;

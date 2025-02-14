@@ -32,7 +32,7 @@ int main()
     SelectionSort(A,n);// Time complexity is O(n^2)
     for(int i=0;i<n;i++)
     {
-        printf("%d ",A[i]);// printing soted array
+        printf("%d ",A[i]);// printing sorted array
     }
     return 0;
 }

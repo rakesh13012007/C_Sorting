@@ -51,7 +51,7 @@ int main() {
 //	printf("Before Sorting: ");
 //	print_array(A, n);
 	// Function call to radix_sort() function goes here
-	radix_sort(A, n);// Time complexity is O(
+	radix_sort(A, n);// Time complexity is O(n)*O(no of digits in max element)
 	print_array(A, n);
 	return 0;	
 }

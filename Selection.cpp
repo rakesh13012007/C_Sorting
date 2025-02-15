@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Selection sort basically moves minumum value to the starting of the index
+// Selection sort basically moves minumum value to the starting of the Array
 void SelectionSort(int A[],int n)
 {
     for(int i=0;i<n-1;i++)// outer loop starts from o to n-2
